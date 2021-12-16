@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#37F6F3F3"
+    android:backgroundTint="#37EFE0E0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="슬기로운"
+        android:textColor="#DC7E52"
+        android:textSize="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="집콕생활"
+        android:textColor="#DC7E52"
+        android:textSize="65dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="140dp"
+        android:fontFamily="@font/tvnbold"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#BEFF9800"
+        android:text="시작하기"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+
+</LinearLayout>

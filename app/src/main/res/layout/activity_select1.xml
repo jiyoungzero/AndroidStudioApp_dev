@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectActivity1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/tvnbold"
+        android:text="MBTI별 추천"
+        android:textColor="#DC7E52"
+        android:textSize="65dp" />
+
+
+    <Button
+        android:id="@+id/btnhobby"
+        android:layout_width="140dp"
+        android:fontFamily="@font/tvnbold"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#BEFF9800"
+        android:text="취미 추천"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnexer"
+        android:layout_width="140dp"
+        android:fontFamily="@font/tvnbold"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#BEFF9800"
+        android:text="운동 추천"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+    <Button
+        android:id="@+id/btnprevmain1"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/tvnbold"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#BEFF9800"
+        android:text="돌아가기"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+
+</LinearLayout>
